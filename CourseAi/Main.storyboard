@@ -795,7 +795,7 @@
                             <rect key="frame" x="0.0" y="64" width="375" height="482"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9n6-qb-7aQ">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prof" translatesAutoresizingMaskIntoConstraints="NO" id="9n6-qb-7aQ">
                                     <color key="backgroundColor" red="0.23137254901960785" green="0.17254901960784313" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="90" id="dI7-Cu-WEl"/>
@@ -807,7 +807,7 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </imageView>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Nd-p8-rVN" userLabel="Dummy View">
+                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Nd-p8-rVN" userLabel="Dummy View">
                                     <color key="backgroundColor" red="0.23137254901960785" green="0.17254901960784313" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -815,7 +815,12 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eg1-DX-zDn" userLabel="Dummy View">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Janine Tiefenbruck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdi-lv-zIK">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eg1-DX-zDn" userLabel="Dummy View">
                                     <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -823,7 +828,12 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0UG-Da-Odk" userLabel="Dummy View">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Computer Science" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Cs-ei-1aZ" userLabel="Department">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                    <color key="textColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0UG-Da-Odk" userLabel="Dummy View">
                                     <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -905,44 +915,94 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jn3-kD-xJm">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                    <color key="textColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zvk-ON-Q7n" userLabel="Dummy View">
+                                    <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePf-b9-ea9" userLabel="Dummy View">
+                                    <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jcm-U9-exT" userLabel="Dummy View">
+                                    <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
                             </subviews>
                             <constraints>
+                                <constraint firstItem="jcm-U9-exT" firstAttribute="leading" secondItem="YeW-0k-MGw" secondAttribute="leading" id="11f-Y1-49T"/>
                                 <constraint firstItem="rDY-br-pyz" firstAttribute="top" secondItem="9To-pF-vmo" secondAttribute="bottom" constant="14" id="1Fs-Os-EDO"/>
                                 <constraint firstItem="jcF-eq-dYi" firstAttribute="top" secondItem="rDY-br-pyz" secondAttribute="top" id="1ga-Ku-VoG"/>
+                                <constraint firstItem="gdi-lv-zIK" firstAttribute="top" secondItem="4Nd-p8-rVN" secondAttribute="top" id="4eE-Pq-zk5"/>
                                 <constraint firstItem="aA6-JE-bkb" firstAttribute="leading" secondItem="9n6-qb-7aQ" secondAttribute="leading" id="7sC-5W-c7a"/>
                                 <constraint firstItem="0UG-Da-Odk" firstAttribute="width" secondItem="4Nd-p8-rVN" secondAttribute="width" multiplier="0.4" constant="0.59999999999999998" id="8bi-UL-Aw0"/>
                                 <constraint firstItem="eg1-DX-zDn" firstAttribute="height" secondItem="4Nd-p8-rVN" secondAttribute="height" id="932-LV-n97"/>
+                                <constraint firstItem="ePf-b9-ea9" firstAttribute="trailing" secondItem="eBC-7E-ZRW" secondAttribute="trailing" id="B3B-C5-99E"/>
                                 <constraint firstItem="eg1-DX-zDn" firstAttribute="centerY" secondItem="9n6-qb-7aQ" secondAttribute="centerY" id="BTf-rk-fus"/>
                                 <constraint firstItem="0UG-Da-Odk" firstAttribute="leading" secondItem="eg1-DX-zDn" secondAttribute="leading" id="Bm7-yM-7oh"/>
                                 <constraint firstItem="TBl-tT-jg2" firstAttribute="width" secondItem="jcF-eq-dYi" secondAttribute="width" id="Bsc-fQ-Nvo"/>
                                 <constraint firstItem="YeW-0k-MGw" firstAttribute="leading" secondItem="eBC-7E-ZRW" secondAttribute="trailing" constant="8" symbolic="YES" id="CcB-zJ-thw"/>
                                 <constraint firstItem="jcF-eq-dYi" firstAttribute="height" secondItem="4Nd-p8-rVN" secondAttribute="height" id="EIe-YW-jH7"/>
+                                <constraint firstItem="jcm-U9-exT" firstAttribute="height" secondItem="ePf-b9-ea9" secondAttribute="height" id="EkH-d0-a3C"/>
+                                <constraint firstItem="Zvk-ON-Q7n" firstAttribute="leading" secondItem="I8b-Xy-OVU" secondAttribute="leading" id="FuM-zH-5Ug"/>
                                 <constraint firstItem="aA6-JE-bkb" firstAttribute="trailing" secondItem="4Nd-p8-rVN" secondAttribute="trailing" id="GU5-u1-Lac"/>
+                                <constraint firstItem="9To-pF-vmo" firstAttribute="top" secondItem="Zvk-ON-Q7n" secondAttribute="bottom" constant="20" id="Gct-Cd-ck0"/>
+                                <constraint firstItem="0Cs-ei-1aZ" firstAttribute="leading" secondItem="gdi-lv-zIK" secondAttribute="leading" id="IEA-Pu-Y2b"/>
+                                <constraint firstItem="ePf-b9-ea9" firstAttribute="top" secondItem="Zvk-ON-Q7n" secondAttribute="top" id="J29-Up-ZAq"/>
                                 <constraint firstItem="I8b-Xy-OVU" firstAttribute="top" secondItem="aA6-JE-bkb" secondAttribute="bottom" constant="14" id="NFc-Lb-Vyd"/>
                                 <constraint firstItem="YeW-0k-MGw" firstAttribute="top" secondItem="eBC-7E-ZRW" secondAttribute="top" id="NN5-zO-9aX"/>
+                                <constraint firstItem="ePf-b9-ea9" firstAttribute="height" secondItem="Zvk-ON-Q7n" secondAttribute="height" id="OSm-UE-STP"/>
                                 <constraint firstItem="aA6-JE-bkb" firstAttribute="top" secondItem="9n6-qb-7aQ" secondAttribute="bottom" constant="39" id="PAr-XX-Rhp"/>
                                 <constraint firstItem="TBl-tT-jg2" firstAttribute="bottom" secondItem="rDY-br-pyz" secondAttribute="bottom" id="Qg8-e2-dEt"/>
                                 <constraint firstItem="0UG-Da-Odk" firstAttribute="bottom" secondItem="9n6-qb-7aQ" secondAttribute="bottom" id="Rky-Ze-saH"/>
+                                <constraint firstItem="gdi-lv-zIK" firstAttribute="trailing" secondItem="4Nd-p8-rVN" secondAttribute="trailing" id="TFt-Pm-oCv"/>
                                 <constraint firstItem="9n6-qb-7aQ" firstAttribute="top" secondItem="FAj-OW-w68" secondAttribute="top" constant="24" id="TtB-cC-RC6"/>
+                                <constraint firstItem="ePf-b9-ea9" firstAttribute="leading" secondItem="eBC-7E-ZRW" secondAttribute="leading" id="Tzw-V6-hYn"/>
+                                <constraint firstItem="0Cs-ei-1aZ" firstAttribute="trailing" secondItem="gdi-lv-zIK" secondAttribute="trailing" id="VFV-pI-GKT"/>
                                 <constraint firstItem="4Nd-p8-rVN" firstAttribute="top" secondItem="9n6-qb-7aQ" secondAttribute="top" id="VSV-0B-Xlc"/>
+                                <constraint firstItem="0Cs-ei-1aZ" firstAttribute="top" secondItem="gdi-lv-zIK" secondAttribute="bottom" constant="8" symbolic="YES" id="Vgd-UX-eNz"/>
                                 <constraint firstItem="eBC-7E-ZRW" firstAttribute="leading" secondItem="I8b-Xy-OVU" secondAttribute="trailing" constant="8" symbolic="YES" id="Vjb-qE-BhO"/>
                                 <constraint firstItem="9To-pF-vmo" firstAttribute="trailing" secondItem="aA6-JE-bkb" secondAttribute="trailing" id="Yo9-cV-RyD"/>
                                 <constraint firstAttribute="bottom" secondItem="9n6-qb-7aQ" secondAttribute="bottom" priority="250" constant="34" id="ZNC-J8-eOG"/>
+                                <constraint firstItem="Jn3-kD-xJm" firstAttribute="trailing" secondItem="0Cs-ei-1aZ" secondAttribute="trailing" id="b2h-cw-WKg"/>
+                                <constraint firstItem="Zvk-ON-Q7n" firstAttribute="height" secondItem="0UG-Da-Odk" secondAttribute="height" id="cql-PQ-olW"/>
                                 <constraint firstItem="I8b-Xy-OVU" firstAttribute="leading" secondItem="aA6-JE-bkb" secondAttribute="leading" id="dTI-yw-H2F"/>
                                 <constraint firstItem="TBl-tT-jg2" firstAttribute="leading" secondItem="jcF-eq-dYi" secondAttribute="leading" id="ddq-aL-vib"/>
+                                <constraint firstItem="Jn3-kD-xJm" firstAttribute="top" secondItem="0Cs-ei-1aZ" secondAttribute="bottom" constant="8" symbolic="YES" id="ded-YF-O7k"/>
                                 <constraint firstItem="TBl-tT-jg2" firstAttribute="height" secondItem="jcF-eq-dYi" secondAttribute="height" id="fYF-0S-uQP"/>
+                                <constraint firstItem="Zvk-ON-Q7n" firstAttribute="trailing" secondItem="I8b-Xy-OVU" secondAttribute="trailing" id="fin-X8-Emo"/>
                                 <constraint firstItem="0UG-Da-Odk" firstAttribute="height" secondItem="eg1-DX-zDn" secondAttribute="height" id="fmc-6Y-CxH"/>
-                                <constraint firstItem="9To-pF-vmo" firstAttribute="top" secondItem="I8b-Xy-OVU" secondAttribute="bottom" constant="20" id="gsI-ww-i7x"/>
                                 <constraint firstItem="eg1-DX-zDn" firstAttribute="width" secondItem="4Nd-p8-rVN" secondAttribute="width" multiplier="0.7" id="hmJ-V2-C24"/>
+                                <constraint firstItem="gdi-lv-zIK" firstAttribute="leading" secondItem="9n6-qb-7aQ" secondAttribute="trailing" constant="14" id="iQA-VL-MLz"/>
                                 <constraint firstItem="4Nd-p8-rVN" firstAttribute="leading" secondItem="9n6-qb-7aQ" secondAttribute="trailing" constant="8" symbolic="YES" id="oIv-fL-KN8"/>
                                 <constraint firstAttribute="trailing" secondItem="4Nd-p8-rVN" secondAttribute="trailing" constant="16" id="oXH-V8-Ego"/>
+                                <constraint firstItem="Jn3-kD-xJm" firstAttribute="leading" secondItem="0Cs-ei-1aZ" secondAttribute="leading" id="shw-VX-SGg"/>
                                 <constraint firstItem="eBC-7E-ZRW" firstAttribute="top" secondItem="I8b-Xy-OVU" secondAttribute="top" id="so0-OB-ZfC"/>
                                 <constraint firstItem="jcF-eq-dYi" firstAttribute="leading" secondItem="rDY-br-pyz" secondAttribute="trailing" constant="8" symbolic="YES" id="tpc-pO-dne"/>
                                 <constraint firstItem="9n6-qb-7aQ" firstAttribute="leading" secondItem="FAj-OW-w68" secondAttribute="leading" constant="16" id="uLN-7B-uRh"/>
+                                <constraint firstItem="jcm-U9-exT" firstAttribute="top" secondItem="ePf-b9-ea9" secondAttribute="top" id="uc0-5O-Zlp"/>
                                 <constraint firstItem="eg1-DX-zDn" firstAttribute="leading" secondItem="4Nd-p8-rVN" secondAttribute="leading" id="uvr-RA-ADH"/>
                                 <constraint firstItem="9To-pF-vmo" firstAttribute="leading" secondItem="I8b-Xy-OVU" secondAttribute="leading" id="w2U-DD-Uis"/>
                                 <constraint firstItem="rDY-br-pyz" firstAttribute="leading" secondItem="9To-pF-vmo" secondAttribute="leading" id="wCl-AO-B6s"/>
+                                <constraint firstItem="Zvk-ON-Q7n" firstAttribute="top" secondItem="I8b-Xy-OVU" secondAttribute="bottom" constant="8" symbolic="YES" id="wab-qX-2Cs"/>
                                 <constraint firstItem="4Nd-p8-rVN" firstAttribute="height" secondItem="9n6-qb-7aQ" secondAttribute="height" multiplier="0.2" id="xAI-HZ-jes"/>
+                                <constraint firstItem="jcm-U9-exT" firstAttribute="trailing" secondItem="YeW-0k-MGw" secondAttribute="trailing" id="xvg-z0-KQZ"/>
                                 <constraint firstItem="jcF-eq-dYi" firstAttribute="trailing" secondItem="4Nd-p8-rVN" secondAttribute="trailing" id="zJx-2T-leo"/>
                             </constraints>
                         </view>
@@ -1015,6 +1075,7 @@
         <image name="Close-Icon" width="32" height="32"/>
         <image name="PINBG" width="631" height="960"/>
         <image name="check-icon" width="30" height="30"/>
+        <image name="prof" width="224" height="225"/>
         <image name="profile-icon" width="30" height="30"/>
     </resources>
 </document>
