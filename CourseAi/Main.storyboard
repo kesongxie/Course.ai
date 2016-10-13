@@ -10,7 +10,7 @@
         <!--Welcome Screen View Controller-->
         <scene sceneID="3vS-sF-RbE">
             <objects>
-                <viewController id="WLa-yu-eSO" customClass="WelcomeScreenViewController" customModule="course_io" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="WLa-yu-eSO" customClass="WelcomeScreenViewController" customModule="CourseAi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8lb-cp-ohX"/>
                         <viewControllerLayoutGuide type="bottom" id="nPH-aF-udd"/>
@@ -81,7 +81,7 @@
         <!--Student Sign Up First View Controller-->
         <scene sceneID="cpD-yV-vIq">
             <objects>
-                <viewController storyboardIdentifier="StudentSignUpFirstViewControllerIden" id="0je-d4-h8X" customClass="StudentSignUpFirstViewController" customModule="course_io" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StudentSignUpFirstViewControllerIden" id="0je-d4-h8X" customClass="StudentSignUpFirstViewController" customModule="CourseAi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hcd-nB-i8v"/>
                         <viewControllerLayoutGuide type="bottom" id="lvJ-WN-vcs"/>
@@ -224,7 +224,7 @@
         <!--Student Sign Up Second View Controller-->
         <scene sceneID="mqk-jy-bZJ">
             <objects>
-                <viewController storyboardIdentifier="StudentSignUpSecondViewControllerIden" id="sCL-MO-gLp" customClass="StudentSignUpSecondViewController" customModule="course_io" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StudentSignUpSecondViewControllerIden" id="sCL-MO-gLp" customClass="StudentSignUpSecondViewController" customModule="CourseAi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tDF-1E-xYT"/>
                         <viewControllerLayoutGuide type="bottom" id="V1q-3o-ZRf"/>
@@ -413,10 +413,10 @@
             </objects>
             <point key="canvasLocation" x="3447" y="1172"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Global Tab Bar View Controller-->
         <scene sceneID="D0U-OR-VI1">
             <objects>
-                <tabBarController id="KM9-dG-KLQ" sceneMemberID="viewController">
+                <tabBarController id="KM9-dG-KLQ" customClass="GlobalTabBarViewController" customModule="CourseAi" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="u42-fx-tej">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -433,7 +433,7 @@
         <!--Student Sign Up Navigation Controller-->
         <scene sceneID="mqf-pB-eOt">
             <objects>
-                <navigationController storyboardIdentifier="StudentSignUpNavigationControllerIden" automaticallyAdjustsScrollViewInsets="NO" id="Oft-Se-pXw" customClass="StudentSignUpNavigationController" customModule="course_io" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="StudentSignUpNavigationControllerIden" automaticallyAdjustsScrollViewInsets="NO" id="Oft-Se-pXw" customClass="StudentSignUpNavigationController" customModule="CourseAi" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zGT-cg-FyO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -451,7 +451,7 @@
         <!--Professor Sign Up First View Controller-->
         <scene sceneID="bQw-OK-bXC">
             <objects>
-                <viewController storyboardIdentifier="ProfessorSignUpFirstViewControllerIden" id="10A-Zm-XfM" customClass="ProfessorSignUpFirstViewController" customModule="course_io" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfessorSignUpFirstViewControllerIden" id="10A-Zm-XfM" customClass="ProfessorSignUpFirstViewController" customModule="CourseAi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Drj-Ex-UHk"/>
                         <viewControllerLayoutGuide type="bottom" id="dQi-sr-4GH"/>
@@ -594,7 +594,7 @@
         <!--Professor Sign Up Second View Controller-->
         <scene sceneID="OGt-T6-Rtk">
             <objects>
-                <viewController storyboardIdentifier="ProfessorSignUpSecondViewControllerIden" id="YFF-0X-ph7" customClass="ProfessorSignUpSecondViewController" customModule="course_io" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfessorSignUpSecondViewControllerIden" id="YFF-0X-ph7" customClass="ProfessorSignUpSecondViewController" customModule="CourseAi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nm1-1E-lMg"/>
                         <viewControllerLayoutGuide type="bottom" id="yiG-JQ-Ib7"/>
@@ -786,13 +786,13 @@
         <!--PROFILE-->
         <scene sceneID="Nqx-aF-Ykt">
             <objects>
-                <tableViewController storyboardIdentifier="ProfessorProfileTableViewControllerIden" id="i1V-K6-qNp" customClass="ProfessorProfileTableViewController" customModule="course_io" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ProfessorProfileTableViewControllerIden" id="i1V-K6-qNp" customClass="ProfessorProfileTableViewController" customModule="CourseAi" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="rAf-lX-DbY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.30196078430000001" green="0.22352941179999999" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="FAj-OW-w68" userLabel="Header View">
-                            <rect key="frame" x="0.0" y="64" width="375" height="380"/>
+                            <rect key="frame" x="0.0" y="64" width="375" height="482"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9n6-qb-7aQ">
@@ -807,7 +807,7 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </imageView>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Nd-p8-rVN">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Nd-p8-rVN" userLabel="Dummy View">
                                     <color key="backgroundColor" red="0.23137254901960785" green="0.17254901960784313" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -815,7 +815,7 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eg1-DX-zDn">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eg1-DX-zDn" userLabel="Dummy View">
                                     <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -823,7 +823,7 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0UG-Da-Odk">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0UG-Da-Odk" userLabel="Dummy View">
                                     <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -831,7 +831,7 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I8b-Xy-OVU">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I8b-Xy-OVU" userLabel="Dummy View">
                                     <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="120" id="G7d-b7-Gm4"/>
@@ -848,7 +848,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBC-7E-ZRW">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBC-7E-ZRW" userLabel="Dummy View">
                                     <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="120" id="PSR-Qm-w27"/>
@@ -860,7 +860,7 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YeW-0k-MGw">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YeW-0k-MGw" userLabel="Dummy View">
                                     <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="120" id="0MM-e9-hoZ"/>
@@ -872,37 +872,83 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Announcements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9To-pF-vmo">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rDY-br-pyz" userLabel="Dummy View">
+                                    <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="54" id="OXS-Ge-eGZ"/>
+                                        <constraint firstAttribute="width" constant="54" id="xCY-Ej-CaF"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jcF-eq-dYi" userLabel="Dummy View">
+                                    <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TBl-tT-jg2" userLabel="Dummy View">
+                                    <color key="backgroundColor" red="0.23137254900000001" green="0.17254901959999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
                             </subviews>
                             <constraints>
+                                <constraint firstItem="rDY-br-pyz" firstAttribute="top" secondItem="9To-pF-vmo" secondAttribute="bottom" constant="14" id="1Fs-Os-EDO"/>
+                                <constraint firstItem="jcF-eq-dYi" firstAttribute="top" secondItem="rDY-br-pyz" secondAttribute="top" id="1ga-Ku-VoG"/>
                                 <constraint firstItem="aA6-JE-bkb" firstAttribute="leading" secondItem="9n6-qb-7aQ" secondAttribute="leading" id="7sC-5W-c7a"/>
-                                <constraint firstItem="0UG-Da-Odk" firstAttribute="width" secondItem="4Nd-p8-rVN" secondAttribute="width" multiplier="0.9" id="8bi-UL-Aw0"/>
+                                <constraint firstItem="0UG-Da-Odk" firstAttribute="width" secondItem="4Nd-p8-rVN" secondAttribute="width" multiplier="0.4" constant="0.59999999999999998" id="8bi-UL-Aw0"/>
                                 <constraint firstItem="eg1-DX-zDn" firstAttribute="height" secondItem="4Nd-p8-rVN" secondAttribute="height" id="932-LV-n97"/>
                                 <constraint firstItem="eg1-DX-zDn" firstAttribute="centerY" secondItem="9n6-qb-7aQ" secondAttribute="centerY" id="BTf-rk-fus"/>
                                 <constraint firstItem="0UG-Da-Odk" firstAttribute="leading" secondItem="eg1-DX-zDn" secondAttribute="leading" id="Bm7-yM-7oh"/>
-                                <constraint firstItem="YeW-0k-MGw" firstAttribute="leading" secondItem="eBC-7E-ZRW" secondAttribute="trailing" constant="14" id="CcB-zJ-thw"/>
+                                <constraint firstItem="TBl-tT-jg2" firstAttribute="width" secondItem="jcF-eq-dYi" secondAttribute="width" id="Bsc-fQ-Nvo"/>
+                                <constraint firstItem="YeW-0k-MGw" firstAttribute="leading" secondItem="eBC-7E-ZRW" secondAttribute="trailing" constant="8" symbolic="YES" id="CcB-zJ-thw"/>
+                                <constraint firstItem="jcF-eq-dYi" firstAttribute="height" secondItem="4Nd-p8-rVN" secondAttribute="height" id="EIe-YW-jH7"/>
                                 <constraint firstItem="aA6-JE-bkb" firstAttribute="trailing" secondItem="4Nd-p8-rVN" secondAttribute="trailing" id="GU5-u1-Lac"/>
                                 <constraint firstItem="I8b-Xy-OVU" firstAttribute="top" secondItem="aA6-JE-bkb" secondAttribute="bottom" constant="14" id="NFc-Lb-Vyd"/>
                                 <constraint firstItem="YeW-0k-MGw" firstAttribute="top" secondItem="eBC-7E-ZRW" secondAttribute="top" id="NN5-zO-9aX"/>
                                 <constraint firstItem="aA6-JE-bkb" firstAttribute="top" secondItem="9n6-qb-7aQ" secondAttribute="bottom" constant="39" id="PAr-XX-Rhp"/>
+                                <constraint firstItem="TBl-tT-jg2" firstAttribute="bottom" secondItem="rDY-br-pyz" secondAttribute="bottom" id="Qg8-e2-dEt"/>
                                 <constraint firstItem="0UG-Da-Odk" firstAttribute="bottom" secondItem="9n6-qb-7aQ" secondAttribute="bottom" id="Rky-Ze-saH"/>
-                                <constraint firstItem="9n6-qb-7aQ" firstAttribute="top" secondItem="FAj-OW-w68" secondAttribute="top" constant="20" id="TtB-cC-RC6"/>
+                                <constraint firstItem="9n6-qb-7aQ" firstAttribute="top" secondItem="FAj-OW-w68" secondAttribute="top" constant="24" id="TtB-cC-RC6"/>
                                 <constraint firstItem="4Nd-p8-rVN" firstAttribute="top" secondItem="9n6-qb-7aQ" secondAttribute="top" id="VSV-0B-Xlc"/>
-                                <constraint firstItem="eBC-7E-ZRW" firstAttribute="leading" secondItem="I8b-Xy-OVU" secondAttribute="trailing" constant="14" id="Vjb-qE-BhO"/>
+                                <constraint firstItem="eBC-7E-ZRW" firstAttribute="leading" secondItem="I8b-Xy-OVU" secondAttribute="trailing" constant="8" symbolic="YES" id="Vjb-qE-BhO"/>
+                                <constraint firstItem="9To-pF-vmo" firstAttribute="trailing" secondItem="aA6-JE-bkb" secondAttribute="trailing" id="Yo9-cV-RyD"/>
                                 <constraint firstAttribute="bottom" secondItem="9n6-qb-7aQ" secondAttribute="bottom" priority="250" constant="34" id="ZNC-J8-eOG"/>
                                 <constraint firstItem="I8b-Xy-OVU" firstAttribute="leading" secondItem="aA6-JE-bkb" secondAttribute="leading" id="dTI-yw-H2F"/>
+                                <constraint firstItem="TBl-tT-jg2" firstAttribute="leading" secondItem="jcF-eq-dYi" secondAttribute="leading" id="ddq-aL-vib"/>
+                                <constraint firstItem="TBl-tT-jg2" firstAttribute="height" secondItem="jcF-eq-dYi" secondAttribute="height" id="fYF-0S-uQP"/>
                                 <constraint firstItem="0UG-Da-Odk" firstAttribute="height" secondItem="eg1-DX-zDn" secondAttribute="height" id="fmc-6Y-CxH"/>
+                                <constraint firstItem="9To-pF-vmo" firstAttribute="top" secondItem="I8b-Xy-OVU" secondAttribute="bottom" constant="20" id="gsI-ww-i7x"/>
                                 <constraint firstItem="eg1-DX-zDn" firstAttribute="width" secondItem="4Nd-p8-rVN" secondAttribute="width" multiplier="0.7" id="hmJ-V2-C24"/>
-                                <constraint firstItem="4Nd-p8-rVN" firstAttribute="leading" secondItem="9n6-qb-7aQ" secondAttribute="trailing" constant="14" id="oIv-fL-KN8"/>
+                                <constraint firstItem="4Nd-p8-rVN" firstAttribute="leading" secondItem="9n6-qb-7aQ" secondAttribute="trailing" constant="8" symbolic="YES" id="oIv-fL-KN8"/>
                                 <constraint firstAttribute="trailing" secondItem="4Nd-p8-rVN" secondAttribute="trailing" constant="16" id="oXH-V8-Ego"/>
                                 <constraint firstItem="eBC-7E-ZRW" firstAttribute="top" secondItem="I8b-Xy-OVU" secondAttribute="top" id="so0-OB-ZfC"/>
+                                <constraint firstItem="jcF-eq-dYi" firstAttribute="leading" secondItem="rDY-br-pyz" secondAttribute="trailing" constant="8" symbolic="YES" id="tpc-pO-dne"/>
                                 <constraint firstItem="9n6-qb-7aQ" firstAttribute="leading" secondItem="FAj-OW-w68" secondAttribute="leading" constant="16" id="uLN-7B-uRh"/>
                                 <constraint firstItem="eg1-DX-zDn" firstAttribute="leading" secondItem="4Nd-p8-rVN" secondAttribute="leading" id="uvr-RA-ADH"/>
+                                <constraint firstItem="9To-pF-vmo" firstAttribute="leading" secondItem="I8b-Xy-OVU" secondAttribute="leading" id="w2U-DD-Uis"/>
+                                <constraint firstItem="rDY-br-pyz" firstAttribute="leading" secondItem="9To-pF-vmo" secondAttribute="leading" id="wCl-AO-B6s"/>
                                 <constraint firstItem="4Nd-p8-rVN" firstAttribute="height" secondItem="9n6-qb-7aQ" secondAttribute="height" multiplier="0.2" id="xAI-HZ-jes"/>
+                                <constraint firstItem="jcF-eq-dYi" firstAttribute="trailing" secondItem="4Nd-p8-rVN" secondAttribute="trailing" id="zJx-2T-leo"/>
                             </constraints>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Mya-80-ntg">
-                                <rect key="frame" x="0.0" y="472" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="574" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mya-80-ntg" id="etV-rA-MZx">
                                     <frame key="frameInset" width="375" height="44"/>
@@ -923,12 +969,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gyc-83-hHm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4572" y="1952"/>
+            <point key="canvasLocation" x="4572" y="1951.5742128935533"/>
         </scene>
         <!--Professor Sign Up Navigation Controller-->
         <scene sceneID="7zg-9I-jNj">
             <objects>
-                <navigationController storyboardIdentifier="ProfessorSignUpNavigationControllerIden" automaticallyAdjustsScrollViewInsets="NO" id="G2B-GJ-WNk" customClass="ProfessorSignUpNavigationController" customModule="course_io" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ProfessorSignUpNavigationControllerIden" automaticallyAdjustsScrollViewInsets="NO" id="G2B-GJ-WNk" customClass="ProfessorSignUpNavigationController" customModule="CourseAi" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0rD-sN-PBB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -946,7 +992,7 @@
         <!--Professor Profile Navigation View Controller-->
         <scene sceneID="204-Gm-M86">
             <objects>
-                <navigationController storyboardIdentifier="ProfessorProfileNavigationViewControllerIden" automaticallyAdjustsScrollViewInsets="NO" id="EIe-fv-9a0" customClass="ProfessorProfileNavigationViewController" customModule="course_io" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ProfessorProfileNavigationViewControllerIden" automaticallyAdjustsScrollViewInsets="NO" id="EIe-fv-9a0" customClass="ProfessorProfileNavigationViewController" customModule="CourseAi" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="profile-icon" id="ZqF-nb-eoY">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>

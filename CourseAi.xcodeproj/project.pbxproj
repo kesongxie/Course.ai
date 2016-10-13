@@ -86,8 +86,6 @@
 				98F94A761DAF5B50002F802D /* AppDelegate */,
 				98F94A751DAF5B46002F802D /* ProfessorProfile */,
 				98F94A741DAF5B37002F802D /* Tabbar */,
-				98F94A671DAF5A8C002F802D /* Info.plist */,
-				98F94A681DAF5A8C002F802D /* IntroNavigationController.swift */,
 				98F94A731DAF5B2C002F802D /* Storyboard */,
 				98F94A721DAF5B1C002F802D /* ProfessorSignUp */,
 				98F94A701DAF5B01002F802D /* StudentSignUp */,
@@ -95,6 +93,8 @@
 				98F94A771DAF5B75002F802D /* Extension */,
 				98F94A781DAF5B83002F802D /* Model */,
 				98F94A4A1DAF5A65002F802D /* Assets.xcassets */,
+				98F94A681DAF5A8C002F802D /* IntroNavigationController.swift */,
+				98F94A671DAF5A8C002F802D /* Info.plist */,
 				98F94A791DAF5BAC002F802D /* Base.lproj */,
 			);
 			path = CourseAi;

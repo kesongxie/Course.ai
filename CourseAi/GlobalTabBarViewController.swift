@@ -12,8 +12,9 @@ class GlobalTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.tabBar.barTintColor = StyleConst.tabBar.backgroundColor
+        self.tabBar.tintColor = StyleConst.tabBar.iconColor
+        self.tabBar.isTranslucent = false
     }
 
     override func didReceiveMemoryWarning() {
